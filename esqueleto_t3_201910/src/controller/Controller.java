@@ -2,9 +2,9 @@ package controller;
 
 import java.io.FileReader;
 import java.util.Scanner;
-
-import com.opencsv.CSVReader;
-
+import au.com.bytecode.opencsv.CSVReader;
+import au.com.bytecode.opencsv.bean.ColumnPositionMappingStrategy;
+import au.com.bytecode.opencsv.bean.CsvToBean;
 import model.data_structures.ColaEstructura;
 import model.data_structures.IQueue;
 import model.data_structures.IStack;

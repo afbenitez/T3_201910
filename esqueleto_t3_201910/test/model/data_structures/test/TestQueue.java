@@ -1,8 +1,8 @@
-package model.data_structures;
+package model.data_structures.test;
 
-import org.junit.Before;
 import junit.framework.TestCase;
-
+import model.data_structures.ColaEstructura;
+import org.junit.*;
 public class TestQueue extends TestCase{
 
 	ColaEstructura <Integer> cola;
